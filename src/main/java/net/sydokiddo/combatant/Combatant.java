@@ -3,6 +3,7 @@ package net.sydokiddo.combatant;
 import net.fabricmc.api.ModInitializer;
 import net.sydokiddo.combatant.item.ModItems;
 import net.sydokiddo.combatant.misc.ModParticles;
+import net.sydokiddo.combatant.util.PlayerAttackPacket;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -16,6 +17,7 @@ public class Combatant implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModParticles.PARTICLES.register();
+		PlayerAttackPacket.init();
 
 		// Registry:
 

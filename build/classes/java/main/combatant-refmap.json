@@ -18,6 +18,9 @@
     "net/sydokiddo/combatant/mixin/util/SimpleParticleTypeAccessor": {
       "<init>": "<init>"
     },
+    "net/sydokiddo/combatant/mixin/items/blast_proof/BlastProofItemsMixin": {
+      "isInvulnerableTo(Lnet/minecraft/world/damagesource/DamageSource;)Z": "Lnet/minecraft/class_1297;method_5679(Lnet/minecraft/class_1282;)Z"
+    },
     "net/sydokiddo/combatant/mixin/PlayerManagerMixin": {
       "placeNewPlayer": "Lnet/minecraft/class_3324;method_14570(Lnet/minecraft/class_2535;Lnet/minecraft/class_3222;)V"
     },
@@ -63,6 +66,9 @@
       },
       "net/sydokiddo/combatant/mixin/util/SimpleParticleTypeAccessor": {
         "<init>": "<init>"
+      },
+      "net/sydokiddo/combatant/mixin/items/blast_proof/BlastProofItemsMixin": {
+        "isInvulnerableTo(Lnet/minecraft/world/damagesource/DamageSource;)Z": "Lnet/minecraft/class_1297;method_5679(Lnet/minecraft/class_1282;)Z"
       },
       "net/sydokiddo/combatant/mixin/PlayerManagerMixin": {
         "placeNewPlayer": "Lnet/minecraft/class_3324;method_14570(Lnet/minecraft/class_2535;Lnet/minecraft/class_3222;)V"
