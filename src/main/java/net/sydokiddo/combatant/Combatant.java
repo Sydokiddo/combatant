@@ -19,6 +19,6 @@ public class Combatant implements ModInitializer {
 
 		// Registry:
 
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Thank you for downloading Combatant! :)");
 	}
 }
