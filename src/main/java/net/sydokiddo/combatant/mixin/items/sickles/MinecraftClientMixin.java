@@ -1,6 +1,6 @@
 package net.sydokiddo.combatant.mixin.items.sickles;
 
-import net.sydokiddo.combatant.tags.CombatantTags;
+import net.sydokiddo.combatant.tags.ModTags;
 import net.sydokiddo.combatant.util.PlayerAccess;
 import net.sydokiddo.combatant.util.PlayerAttackPacket;
 import org.jetbrains.annotations.Nullable;
@@ -59,8 +59,8 @@ public class MinecraftClientMixin {
 
         assert player != null;
 
-        if (!player.isSpectator() && player.getOffhandItem().is(CombatantTags.DUAL_WIELDING_ITEMS) &&
-            player.getMainHandItem().is(CombatantTags.DUAL_WIELDING_ITEMS)) {
+        if (!player.isSpectator() && player.getOffhandItem().is(ModTags.DUAL_WIELDING_ITEMS) &&
+            player.getMainHandItem().is(ModTags.DUAL_WIELDING_ITEMS)) {
 
             if (this.secondAttackCooldown <= 0) {
                 if (this.hitResult != null && !this.player.isHandsBusy()) {
