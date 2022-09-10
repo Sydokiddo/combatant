@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "combatant:diamond_sickle"
+  },
+  "addition": {
+    "item": "endlessencore:peroratite_ingot"
+  },
+  "result": {
+    "item": "combatant:peroratite_sickle"
+  }
+}

@@ -1,0 +1,24 @@
+package net.sydokiddo.combatant;
+
+import net.fabricmc.api.ModInitializer;
+import net.sydokiddo.combatant.item.ModItems;
+import net.sydokiddo.combatant.misc.ModParticles;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class Combatant implements ModInitializer {
+
+	public static final String MOD_ID = "combatant";
+	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+
+	@Override
+	public void onInitialize() {
+
+		ModItems.registerModItems();
+		ModParticles.PARTICLES.register();
+
+		// Registry:
+
+		LOGGER.info("Hello Fabric world!");
+	}
+}

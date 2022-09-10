@@ -1,0 +1,14 @@
+v1	named	intermediary
+FIELD	net/sydokiddo/combatant/mixin/items/sickles/HeldItemRendererMixin	F	mainHandHeight	field_4043
+FIELD	net/sydokiddo/combatant/mixin/items/sickles/HeldItemRendererMixin	F	oOffHandHeight	field_4051
+FIELD	net/sydokiddo/combatant/mixin/items/sickles/HeldItemRendererMixin	Lnet/minecraft/client/Minecraft;	minecraft	field_4050
+FIELD	net/sydokiddo/combatant/mixin/items/sickles/HeldItemRendererMixin	Lnet/minecraft/world/item/ItemStack;	offHandItem	field_4048
+FIELD	net/sydokiddo/combatant/mixin/items/sickles/InGameHudMixin	I	screenWidth	field_2011
+FIELD	net/sydokiddo/combatant/mixin/items/sickles/InGameHudMixin	I	screenHeight	field_2029
+FIELD	net/sydokiddo/combatant/mixin/items/sickles/InGameHudMixin	Lnet/minecraft/client/Minecraft;	minecraft	field_2035
+FIELD	net/sydokiddo/combatant/mixin/items/sickles/MinecraftClientMixin	Lnet/minecraft/client/player/LocalPlayer;	player	field_1724
+FIELD	net/sydokiddo/combatant/mixin/items/sickles/MinecraftClientMixin	I	rightClickDelay	field_1752
+FIELD	net/sydokiddo/combatant/mixin/items/sickles/MinecraftClientMixin	Lnet/minecraft/client/multiplayer/MultiPlayerGameMode;	gameMode	field_1761
+FIELD	net/sydokiddo/combatant/mixin/items/sickles/MinecraftClientMixin	Lnet/minecraft/world/phys/HitResult;	hitResult	field_1765
+FIELD	net/sydokiddo/combatant/mixin/PlayerManagerMixin	Lorg/slf4j/Logger;	LOGGER	field_14349
+METHOD	net/sydokiddo/combatant/mixin/items/sickles/PlayerEntityMixin	()F	getCurrentItemAttackStrengthDelay	method_7279

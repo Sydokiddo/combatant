@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "combatant",
+  "version": "0.0.1-1.19.x",
+
+  "name": "Combatant",
+  "description": "A mod that enhances and adds onto Minecraft's combat system in a fun and interesting way!",
+  "authors": [
+    "Sydokiddo"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/combatant",
+    "issues": "https://github.com/Sydokiddo/combatant/issues",
+    "sources": "https://github.com/Sydokiddo/combatant"
+  },
+
+  "license": "MIT",
+  "icon": "assets/combatant/icon.png",
+
+  "environment": "*",
+
+  "entrypoints": {
+    "main": [
+      "net.sydokiddo.combatant.Combatant"
+    ],
+    "client": [
+      "net.sydokiddo.combatant.CombatantClient"
+    ]
+  },
+  "mixins": [
+    "combatant.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.19.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  },
+  "breaks": {
+    "optifine": "*",
+    "optifabric": "*"
+  }
+}

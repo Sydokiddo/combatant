@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "base": {
+    "item": "combatant:diamond_sickle"
+  },
+  "result": {
+    "item": "combatant:netherite_sickle"
+  }
+}
