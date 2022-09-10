@@ -10,6 +10,6 @@ public class CombatantTags {
 
     // Item Tags
 
-    public static final TagKey<Item> DUAL_WIELDING_ITEM = TagKey.create(Registry.ITEM_REGISTRY, new ResourceLocation("combatant", "dual_wielding_item"));
+    public static final TagKey<Item> DUAL_WIELDING_ITEMS = TagKey.create(Registry.ITEM_REGISTRY, new ResourceLocation("combatant", "dual_wielding_items"));
 
 }

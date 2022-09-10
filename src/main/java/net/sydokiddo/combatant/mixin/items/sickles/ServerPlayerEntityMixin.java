@@ -18,7 +18,7 @@ public class ServerPlayerEntityMixin {
 
     @Inject(method = "swing", at = @At(value = "INVOKE", target = "Lnet/minecraft/world/entity/player/Player;swing(Lnet/minecraft/world/InteractionHand;)V", shift = Shift.AFTER), cancellable = true)
     private void swingHandMixin(InteractionHand hand, CallbackInfo info) {
-        boolean item = ((Player) (Object) this).getOffhandItem().is(CombatantTags.DUAL_WIELDING_ITEM);
+        boolean item = ((Player) (Object) this).getOffhandItem().is(CombatantTags.DUAL_WIELDING_ITEMS);
         if (hand == InteractionHand.OFF_HAND && (item))
             info.cancel();
     }

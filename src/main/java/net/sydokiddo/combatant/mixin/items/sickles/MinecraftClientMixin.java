@@ -59,8 +59,8 @@ public class MinecraftClientMixin {
 
         assert player != null;
 
-        if (!player.isSpectator() && player.getOffhandItem().is(CombatantTags.DUAL_WIELDING_ITEM) &&
-            player.getMainHandItem().is(CombatantTags.DUAL_WIELDING_ITEM)) {
+        if (!player.isSpectator() && player.getOffhandItem().is(CombatantTags.DUAL_WIELDING_ITEMS) &&
+            player.getMainHandItem().is(CombatantTags.DUAL_WIELDING_ITEMS)) {
 
             if (this.secondAttackCooldown <= 0) {
                 if (this.hitResult != null && !this.player.isHandsBusy()) {
