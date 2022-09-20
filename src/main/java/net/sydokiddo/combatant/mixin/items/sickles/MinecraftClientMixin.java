@@ -1,6 +1,6 @@
 package net.sydokiddo.combatant.mixin.items.sickles;
 
-import net.sydokiddo.combatant.tags.ModTags;
+import net.sydokiddo.combatant.registry.tags.ModTags;
 import net.sydokiddo.combatant.util.PlayerAccess;
 import net.sydokiddo.combatant.util.PlayerAttackPacket;
 import org.jetbrains.annotations.Nullable;

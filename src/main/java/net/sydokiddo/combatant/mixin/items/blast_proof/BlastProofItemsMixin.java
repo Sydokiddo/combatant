@@ -3,7 +3,7 @@ package net.sydokiddo.combatant.mixin.items.blast_proof;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.item.ItemEntity;
-import net.sydokiddo.combatant.tags.ModTags;
+import net.sydokiddo.combatant.registry.tags.ModTags;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;

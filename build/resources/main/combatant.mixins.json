@@ -5,6 +5,8 @@
   "compatibilityLevel": "JAVA_17",
   "mixins": [
     "PlayerManagerMixin",
+    "enchantments.aerial_affinity.ItemModification",
+    "enchantments.aerial_affinity.PlayerEntityMixin",
     "items.blast_proof.BlastProofItemsMixin",
     "items.sickles.EnchantmentMixin",
     "items.sickles.PlayerEntityMixin",

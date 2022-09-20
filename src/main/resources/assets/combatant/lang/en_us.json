@@ -4,5 +4,9 @@
   "item.combatant.golden_sickle": "Golden Sickle",
   "item.combatant.iron_sickle": "Iron Sickle",
   "item.combatant.diamond_sickle": "Diamond Sickle",
-  "item.combatant.netherite_sickle": "Netherite Sickle"
+  "item.combatant.netherite_sickle": "Netherite Sickle",
+
+  "enchantment.combatant.aerial_affinity": "Aerial Affinity",
+
+  "enchantment.combatant.aerial_affinity.desc": "Increases mining speed while mid-air."
 }

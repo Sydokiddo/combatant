@@ -41,6 +41,12 @@
       "Lnet/minecraft/client/player/LocalPlayer;getAttackStrengthScale(F)F": "Lnet/minecraft/class_746;method_7261(F)F",
       "renderCrosshair": "Lnet/minecraft/class_329;method_1736(Lnet/minecraft/class_4587;)V"
     },
+    "net/sydokiddo/combatant/mixin/enchantments/aerial_affinity/ItemModification": {
+      "canEnchant": "Lnet/minecraft/class_1887;method_8192(Lnet/minecraft/class_1799;)Z"
+    },
+    "net/sydokiddo/combatant/mixin/enchantments/aerial_affinity/PlayerEntityMixin": {
+      "getDestroySpeed": "Lnet/minecraft/class_1657;method_7351(Lnet/minecraft/class_2680;)F"
+    },
     "net/sydokiddo/combatant/mixin/items/sickles/MinecraftClientMixin": {
       "tick()V": "Lnet/minecraft/class_310;method_1574()V",
       "startUseItem": "Lnet/minecraft/class_310;method_1583()V",
@@ -89,6 +95,12 @@
         "renderHotbar": "Lnet/minecraft/class_329;method_1759(FLnet/minecraft/class_4587;)V",
         "Lnet/minecraft/client/player/LocalPlayer;getAttackStrengthScale(F)F": "Lnet/minecraft/class_746;method_7261(F)F",
         "renderCrosshair": "Lnet/minecraft/class_329;method_1736(Lnet/minecraft/class_4587;)V"
+      },
+      "net/sydokiddo/combatant/mixin/enchantments/aerial_affinity/ItemModification": {
+        "canEnchant": "Lnet/minecraft/class_1887;method_8192(Lnet/minecraft/class_1799;)Z"
+      },
+      "net/sydokiddo/combatant/mixin/enchantments/aerial_affinity/PlayerEntityMixin": {
+        "getDestroySpeed": "Lnet/minecraft/class_1657;method_7351(Lnet/minecraft/class_2680;)F"
       },
       "net/sydokiddo/combatant/mixin/items/sickles/MinecraftClientMixin": {
         "tick()V": "Lnet/minecraft/class_310;method_1574()V",

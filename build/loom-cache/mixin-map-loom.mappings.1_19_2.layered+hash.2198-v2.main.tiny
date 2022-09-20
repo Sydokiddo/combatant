@@ -1,4 +1,5 @@
 v1	named	intermediary
+FIELD	net/sydokiddo/combatant/mixin/enchantments/aerial_affinity/PlayerEntityMixin	Lnet/minecraft/world/entity/player/Inventory;	inventory	field_7514
 FIELD	net/sydokiddo/combatant/mixin/items/sickles/HeldItemRendererMixin	F	mainHandHeight	field_4043
 FIELD	net/sydokiddo/combatant/mixin/items/sickles/HeldItemRendererMixin	F	oOffHandHeight	field_4051
 FIELD	net/sydokiddo/combatant/mixin/items/sickles/HeldItemRendererMixin	Lnet/minecraft/client/Minecraft;	minecraft	field_4050

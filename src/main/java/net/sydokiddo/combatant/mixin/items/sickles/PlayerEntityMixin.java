@@ -2,7 +2,7 @@ package net.sydokiddo.combatant.mixin.items.sickles;
 
 import net.minecraft.world.entity.boss.enderdragon.EnderDragon;
 import net.minecraft.world.item.SwordItem;
-import net.sydokiddo.combatant.misc.ModParticles;
+import net.sydokiddo.combatant.registry.misc.ModParticles;
 import net.sydokiddo.combatant.util.PlayerAccess;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.util.Mth;

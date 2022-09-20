@@ -3,7 +3,7 @@ package net.sydokiddo.combatant.mixin.items.sickles;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.entity.player.Player;
-import net.sydokiddo.combatant.tags.ModTags;
+import net.sydokiddo.combatant.registry.tags.ModTags;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.At.Shift;

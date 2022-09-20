@@ -5,7 +5,7 @@ import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.EnchantmentCategory;
 import net.minecraft.world.item.enchantment.FireAspectEnchantment;
 import net.minecraft.world.item.enchantment.SweepingEdgeEnchantment;
-import net.sydokiddo.combatant.item.custom_items.SickleItem;
+import net.sydokiddo.combatant.registry.item.custom_items.SickleItem;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
