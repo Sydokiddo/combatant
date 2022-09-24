@@ -56,6 +56,9 @@
     "net/sydokiddo/combatant/mixin/util/SimpleParticleTypeAccessor": {
       "<init>": "<init>"
     },
+    "net/sydokiddo/combatant/mixin/enchantments/protection/ProtectionEnchantmentMixin": {
+      "checkCompatibility": "Lnet/minecraft/class_1900;method_8180(Lnet/minecraft/class_1887;)Z"
+    },
     "net/sydokiddo/combatant/mixin/items/misc/SnowballEntityMixin": {
       "onHitEntity": "Lnet/minecraft/class_1680;method_7454(Lnet/minecraft/class_3966;)V"
     },
@@ -125,6 +128,9 @@
       },
       "net/sydokiddo/combatant/mixin/util/SimpleParticleTypeAccessor": {
         "<init>": "<init>"
+      },
+      "net/sydokiddo/combatant/mixin/enchantments/protection/ProtectionEnchantmentMixin": {
+        "checkCompatibility": "Lnet/minecraft/class_1900;method_8180(Lnet/minecraft/class_1887;)Z"
       },
       "net/sydokiddo/combatant/mixin/items/misc/SnowballEntityMixin": {
         "onHitEntity": "Lnet/minecraft/class_1680;method_7454(Lnet/minecraft/class_3966;)V"

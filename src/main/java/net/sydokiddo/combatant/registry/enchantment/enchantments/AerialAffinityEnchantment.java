@@ -7,7 +7,6 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.EnchantmentCategory;
 
-@SuppressWarnings("ALL")
 public class AerialAffinityEnchantment extends Enchantment {
     public AerialAffinityEnchantment(Rarity weight, EnchantmentCategory type, EquipmentSlot... slotTypes) {
         super(weight, type, slotTypes);
@@ -34,7 +33,7 @@ public class AerialAffinityEnchantment extends Enchantment {
     }
 
     public boolean isDiscoverable() {
-        return false;
+        return true;
     }
 
     public int getMaxLevel() {

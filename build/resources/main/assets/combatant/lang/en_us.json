@@ -7,6 +7,8 @@
   "item.combatant.netherite_sickle": "Netherite Sickle",
 
   "enchantment.combatant.aerial_affinity": "Aerial Affinity",
+  "enchantment.combatant.aerial_affinity.desc": "Increases mining speed while mid-air.",
 
-  "enchantment.combatant.aerial_affinity.desc": "Increases mining speed while mid-air."
+  "enchantment.combatant.arcane_protection": "Arcane Protection",
+  "enchantment.combatant.arcane_protection.desc": "Reduces damage from magic related sources."
 }

@@ -2,7 +2,6 @@ package net.sydokiddo.combatant.mixin.items.trident;
 
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TridentItem;
-import net.minecraft.world.item.enchantment.DamageEnchantment;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.EnchantmentCategory;
 import net.minecraft.world.item.enchantment.LootBonusEnchantment;
@@ -26,10 +25,6 @@ public abstract class TridentModification {
     public void isAcceptableItem(ItemStack stack, CallbackInfoReturnable<Boolean> cir) {
         Enchantment enchantment = (Enchantment) (Object) this;
         if (enchantment instanceof LootBonusEnchantment) {
-            if (category != EnchantmentCategory.WEAPON || !(stack.getItem() instanceof TridentItem)) return;
-            cir.setReturnValue(true);
-        }
-        if (enchantment instanceof DamageEnchantment) {
             if (category != EnchantmentCategory.WEAPON || !(stack.getItem() instanceof TridentItem)) return;
             cir.setReturnValue(true);
         }
