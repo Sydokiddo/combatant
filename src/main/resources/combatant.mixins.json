@@ -17,6 +17,7 @@
     "items.sickles.PlayerEntityMixin",
     "items.sickles.ServerPlayerEntityMixin",
     "items.sickles.SickleModification",
+    "items.trident.TridentItemMixin",
     "items.trident.TridentModification",
     "util.SimpleParticleTypeAccessor"
   ],

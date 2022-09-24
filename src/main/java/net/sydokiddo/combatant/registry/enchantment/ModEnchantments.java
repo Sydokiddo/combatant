@@ -18,7 +18,6 @@ public class ModEnchantments extends Enchantments {
     public static Enchantment ARCANE_PROTECTION = register("arcane_protection",
     new ArcaneProtectionEnchantment(Enchantment.Rarity.RARE, EnchantmentCategory.ARMOR));
 
-
     private static Enchantment register(String name, Enchantment enchantment) {
         return Registry.register(Registry.ENCHANTMENT, new ResourceLocation(Combatant.MOD_ID, name), enchantment);
     }

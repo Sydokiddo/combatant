@@ -10,5 +10,6 @@ public class CombatantClient implements ClientModInitializer {
     public void onInitializeClient() {
 
         ModParticles.init();
+
     }
 }
