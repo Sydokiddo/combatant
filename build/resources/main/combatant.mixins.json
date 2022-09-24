@@ -7,11 +7,16 @@
     "PlayerManagerMixin",
     "enchantments.aerial_affinity.ItemModification",
     "enchantments.aerial_affinity.PlayerEntityMixin",
+    "items.axe.AxeModification",
     "items.blast_proof.BlastProofItemsMixin",
+    "items.misc.EggEntityMixin",
+    "items.misc.SnowballEntityMixin",
+    "items.potions.ThrowablePotionItemMixin",
     "items.sickles.EnchantmentMixin",
     "items.sickles.PlayerEntityMixin",
     "items.sickles.ServerPlayerEntityMixin",
     "items.sickles.SickleModification",
+    "items.trident.TridentModification",
     "util.SimpleParticleTypeAccessor"
   ],
   "client": [

@@ -12,14 +12,12 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 @Mixin(Entity.class)
 public abstract class BlastProofItemsMixin {
 
-    // Makes Peroratite related items immune to explosion damage
-
     @Inject(method = "isInvulnerableTo(Lnet/minecraft/world/damagesource/DamageSource;)Z", at = @At("RETURN"), cancellable = true)
     protected void isInvulnerableTo(DamageSource source, CallbackInfoReturnable<Boolean> ci) {
         Entity entity = (Entity) (Object) this;
         if (entity instanceof ItemEntity item && item.getItem().is(ModTags.BLAST_PROOF_ITEMS)) {
             ci.setReturnValue(ci.getReturnValue()
-                    || (!item.getItem().isEmpty() && source.isExplosion()));
+            || (!item.getItem().isEmpty() && source.isExplosion()));
         }
     }
 }

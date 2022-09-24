@@ -17,7 +17,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 @SuppressWarnings("ConstantConditions")
 public abstract class ItemModification {
 
-    // Mixin to allow the Aerial Affinity enchantment to be put onto Elytra
+    // Mixin to allow the Aerial Affinity enchantment to be put onto a Chestplate or Elytra
 
     @Final
     public EnchantmentCategory type;

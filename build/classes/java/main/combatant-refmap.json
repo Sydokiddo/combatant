@@ -1,8 +1,5 @@
 {
   "mappings": {
-    "net/sydokiddo/combatant/mixin/items/sickles/SickleModification": {
-      "canEnchant": "Lnet/minecraft/class_1887;method_8192(Lnet/minecraft/class_1799;)Z"
-    },
     "net/sydokiddo/combatant/mixin/items/sickles/ServerPlayerEntityMixin": {
       "swing": "Lnet/minecraft/class_3222;method_6104(Lnet/minecraft/class_1268;)V",
       "Lnet/minecraft/world/entity/player/Player;swing(Lnet/minecraft/world/InteractionHand;)V": "Lnet/minecraft/class_1657;method_6104(Lnet/minecraft/class_1268;)V"
@@ -10,13 +7,8 @@
     "net/sydokiddo/combatant/mixin/items/sickles/EnchantmentMixin": {
       "getSlotItems": "Lnet/minecraft/class_1887;method_8185(Lnet/minecraft/class_1309;)Ljava/util/Map;"
     },
-    "net/sydokiddo/combatant/mixin/items/sickles/HeldItemRendererMixin": {
-      "Lnet/minecraft/client/player/LocalPlayer;getAttackStrengthScale(F)F": "Lnet/minecraft/class_746;method_7261(F)F",
-      "tick": "Lnet/minecraft/class_759;method_3220()V",
-      "Lnet/minecraft/util/Mth;clamp(FFF)F": "Lnet/minecraft/class_3532;method_15363(FFF)F"
-    },
-    "net/sydokiddo/combatant/mixin/util/SimpleParticleTypeAccessor": {
-      "<init>": "<init>"
+    "net/sydokiddo/combatant/mixin/items/axe/AxeModification": {
+      "canEnchant": "Lnet/minecraft/class_1887;method_8192(Lnet/minecraft/class_1799;)Z"
     },
     "net/sydokiddo/combatant/mixin/items/blast_proof/BlastProofItemsMixin": {
       "isInvulnerableTo(Lnet/minecraft/world/damagesource/DamageSource;)Z": "Lnet/minecraft/class_1297;method_5679(Lnet/minecraft/class_1282;)Z"
@@ -36,10 +28,8 @@
       "Lnet/minecraft/world/entity/player/Player;getAttackStrengthScale(F)F": "Lnet/minecraft/class_1657;method_7261(F)F",
       "resetAttackStrengthTicker": "Lnet/minecraft/class_1657;method_7350()V"
     },
-    "net/sydokiddo/combatant/mixin/items/sickles/InGameHudMixin": {
-      "renderHotbar": "Lnet/minecraft/class_329;method_1759(FLnet/minecraft/class_4587;)V",
-      "Lnet/minecraft/client/player/LocalPlayer;getAttackStrengthScale(F)F": "Lnet/minecraft/class_746;method_7261(F)F",
-      "renderCrosshair": "Lnet/minecraft/class_329;method_1736(Lnet/minecraft/class_4587;)V"
+    "net/sydokiddo/combatant/mixin/items/trident/TridentModification": {
+      "canEnchant": "Lnet/minecraft/class_1887;method_8192(Lnet/minecraft/class_1799;)Z"
     },
     "net/sydokiddo/combatant/mixin/enchantments/aerial_affinity/ItemModification": {
       "canEnchant": "Lnet/minecraft/class_1887;method_8192(Lnet/minecraft/class_1799;)Z"
@@ -51,13 +41,35 @@
       "tick()V": "Lnet/minecraft/class_310;method_1574()V",
       "startUseItem": "Lnet/minecraft/class_310;method_1583()V",
       "Lnet/minecraft/client/Minecraft;handleKeybinds()V": "Lnet/minecraft/class_310;method_1508()V"
+    },
+    "net/sydokiddo/combatant/mixin/items/sickles/SickleModification": {
+      "canEnchant": "Lnet/minecraft/class_1887;method_8192(Lnet/minecraft/class_1799;)Z"
+    },
+    "net/sydokiddo/combatant/mixin/items/sickles/HeldItemRendererMixin": {
+      "Lnet/minecraft/client/player/LocalPlayer;getAttackStrengthScale(F)F": "Lnet/minecraft/class_746;method_7261(F)F",
+      "tick": "Lnet/minecraft/class_759;method_3220()V",
+      "Lnet/minecraft/util/Mth;clamp(FFF)F": "Lnet/minecraft/class_3532;method_15363(FFF)F"
+    },
+    "net/sydokiddo/combatant/mixin/items/misc/EggEntityMixin": {
+      "onHitEntity": "Lnet/minecraft/class_1680;method_7454(Lnet/minecraft/class_3966;)V"
+    },
+    "net/sydokiddo/combatant/mixin/util/SimpleParticleTypeAccessor": {
+      "<init>": "<init>"
+    },
+    "net/sydokiddo/combatant/mixin/items/misc/SnowballEntityMixin": {
+      "onHitEntity": "Lnet/minecraft/class_1680;method_7454(Lnet/minecraft/class_3966;)V"
+    },
+    "net/sydokiddo/combatant/mixin/items/potions/ThrowablePotionItemMixin": {
+      "use": "Lnet/minecraft/class_4537;method_7836(Lnet/minecraft/class_1937;Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;)Lnet/minecraft/class_1271;"
+    },
+    "net/sydokiddo/combatant/mixin/items/sickles/InGameHudMixin": {
+      "renderHotbar": "Lnet/minecraft/class_329;method_1759(FLnet/minecraft/class_4587;)V",
+      "Lnet/minecraft/client/player/LocalPlayer;getAttackStrengthScale(F)F": "Lnet/minecraft/class_746;method_7261(F)F",
+      "renderCrosshair": "Lnet/minecraft/class_329;method_1736(Lnet/minecraft/class_4587;)V"
     }
   },
   "data": {
     "named:intermediary": {
-      "net/sydokiddo/combatant/mixin/items/sickles/SickleModification": {
-        "canEnchant": "Lnet/minecraft/class_1887;method_8192(Lnet/minecraft/class_1799;)Z"
-      },
       "net/sydokiddo/combatant/mixin/items/sickles/ServerPlayerEntityMixin": {
         "swing": "Lnet/minecraft/class_3222;method_6104(Lnet/minecraft/class_1268;)V",
         "Lnet/minecraft/world/entity/player/Player;swing(Lnet/minecraft/world/InteractionHand;)V": "Lnet/minecraft/class_1657;method_6104(Lnet/minecraft/class_1268;)V"
@@ -65,13 +77,8 @@
       "net/sydokiddo/combatant/mixin/items/sickles/EnchantmentMixin": {
         "getSlotItems": "Lnet/minecraft/class_1887;method_8185(Lnet/minecraft/class_1309;)Ljava/util/Map;"
       },
-      "net/sydokiddo/combatant/mixin/items/sickles/HeldItemRendererMixin": {
-        "Lnet/minecraft/client/player/LocalPlayer;getAttackStrengthScale(F)F": "Lnet/minecraft/class_746;method_7261(F)F",
-        "tick": "Lnet/minecraft/class_759;method_3220()V",
-        "Lnet/minecraft/util/Mth;clamp(FFF)F": "Lnet/minecraft/class_3532;method_15363(FFF)F"
-      },
-      "net/sydokiddo/combatant/mixin/util/SimpleParticleTypeAccessor": {
-        "<init>": "<init>"
+      "net/sydokiddo/combatant/mixin/items/axe/AxeModification": {
+        "canEnchant": "Lnet/minecraft/class_1887;method_8192(Lnet/minecraft/class_1799;)Z"
       },
       "net/sydokiddo/combatant/mixin/items/blast_proof/BlastProofItemsMixin": {
         "isInvulnerableTo(Lnet/minecraft/world/damagesource/DamageSource;)Z": "Lnet/minecraft/class_1297;method_5679(Lnet/minecraft/class_1282;)Z"
@@ -91,10 +98,8 @@
         "Lnet/minecraft/world/entity/player/Player;getAttackStrengthScale(F)F": "Lnet/minecraft/class_1657;method_7261(F)F",
         "resetAttackStrengthTicker": "Lnet/minecraft/class_1657;method_7350()V"
       },
-      "net/sydokiddo/combatant/mixin/items/sickles/InGameHudMixin": {
-        "renderHotbar": "Lnet/minecraft/class_329;method_1759(FLnet/minecraft/class_4587;)V",
-        "Lnet/minecraft/client/player/LocalPlayer;getAttackStrengthScale(F)F": "Lnet/minecraft/class_746;method_7261(F)F",
-        "renderCrosshair": "Lnet/minecraft/class_329;method_1736(Lnet/minecraft/class_4587;)V"
+      "net/sydokiddo/combatant/mixin/items/trident/TridentModification": {
+        "canEnchant": "Lnet/minecraft/class_1887;method_8192(Lnet/minecraft/class_1799;)Z"
       },
       "net/sydokiddo/combatant/mixin/enchantments/aerial_affinity/ItemModification": {
         "canEnchant": "Lnet/minecraft/class_1887;method_8192(Lnet/minecraft/class_1799;)Z"
@@ -106,6 +111,31 @@
         "tick()V": "Lnet/minecraft/class_310;method_1574()V",
         "startUseItem": "Lnet/minecraft/class_310;method_1583()V",
         "Lnet/minecraft/client/Minecraft;handleKeybinds()V": "Lnet/minecraft/class_310;method_1508()V"
+      },
+      "net/sydokiddo/combatant/mixin/items/sickles/SickleModification": {
+        "canEnchant": "Lnet/minecraft/class_1887;method_8192(Lnet/minecraft/class_1799;)Z"
+      },
+      "net/sydokiddo/combatant/mixin/items/sickles/HeldItemRendererMixin": {
+        "Lnet/minecraft/client/player/LocalPlayer;getAttackStrengthScale(F)F": "Lnet/minecraft/class_746;method_7261(F)F",
+        "tick": "Lnet/minecraft/class_759;method_3220()V",
+        "Lnet/minecraft/util/Mth;clamp(FFF)F": "Lnet/minecraft/class_3532;method_15363(FFF)F"
+      },
+      "net/sydokiddo/combatant/mixin/items/misc/EggEntityMixin": {
+        "onHitEntity": "Lnet/minecraft/class_1680;method_7454(Lnet/minecraft/class_3966;)V"
+      },
+      "net/sydokiddo/combatant/mixin/util/SimpleParticleTypeAccessor": {
+        "<init>": "<init>"
+      },
+      "net/sydokiddo/combatant/mixin/items/misc/SnowballEntityMixin": {
+        "onHitEntity": "Lnet/minecraft/class_1680;method_7454(Lnet/minecraft/class_3966;)V"
+      },
+      "net/sydokiddo/combatant/mixin/items/potions/ThrowablePotionItemMixin": {
+        "use": "Lnet/minecraft/class_4537;method_7836(Lnet/minecraft/class_1937;Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;)Lnet/minecraft/class_1271;"
+      },
+      "net/sydokiddo/combatant/mixin/items/sickles/InGameHudMixin": {
+        "renderHotbar": "Lnet/minecraft/class_329;method_1759(FLnet/minecraft/class_4587;)V",
+        "Lnet/minecraft/client/player/LocalPlayer;getAttackStrengthScale(F)F": "Lnet/minecraft/class_746;method_7261(F)F",
+        "renderCrosshair": "Lnet/minecraft/class_329;method_1736(Lnet/minecraft/class_4587;)V"
       }
     }
   }
