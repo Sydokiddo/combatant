@@ -1,0 +1,44 @@
+{
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2022-09-25 15:30:02 -0700"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2022-09-25 15:30:02 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2022-09-25 15:30:29 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:zombie": "2022-09-25 15:30:29 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:spider": "2022-09-25 15:31:35 -0700",
+      "minecraft:enderman": "2022-09-25 15:30:52 -0700",
+      "minecraft:zombie": "2022-09-25 15:30:29 -0700"
+    },
+    "done": false
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2022-09-25 15:30:32 -0700",
+      "minecraft:sparse_jungle": "2022-09-25 15:30:34 -0700",
+      "minecraft:river": "2022-09-25 15:30:28 -0700",
+      "minecraft:jungle": "2022-09-25 15:30:06 -0700"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}

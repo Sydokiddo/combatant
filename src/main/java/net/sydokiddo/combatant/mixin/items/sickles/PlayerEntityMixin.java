@@ -1,6 +1,7 @@
 package net.sydokiddo.combatant.mixin.items.sickles;
 
 import net.minecraft.world.entity.boss.enderdragon.EnderDragon;
+import net.minecraft.world.item.DiggerItem;
 import net.minecraft.world.item.SwordItem;
 import net.sydokiddo.combatant.registry.misc.ModParticles;
 import net.sydokiddo.combatant.util.PlayerAccess;
@@ -26,7 +27,7 @@ import org.spongepowered.asm.mixin.injection.callback.LocalCapture;
 import org.spongepowered.asm.mixin.injection.At;
 
 @Mixin(value = Player.class, priority = 1001)
-public class PlayerEntityMixin implements PlayerAccess {
+public abstract class PlayerEntityMixin implements PlayerAccess {
 
     private int lastAttackedOffhandTicks;
     @Nullable
@@ -46,17 +47,30 @@ public class PlayerEntityMixin implements PlayerAccess {
     @SuppressWarnings("ALL")
     @ModifyVariable(method = "attack", at = @At(value = "INVOKE_ASSIGN", target = "Lnet/minecraft/world/item/enchantment/EnchantmentHelper;getDamageBonus(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/MobType;)F"), ordinal = 0, require = 0)
     private float attackDamageMixin(float original) {
+
         Item item = ((Player) (Object) this).getOffhandItem().getItem();
+
         if (this.offHandAttack) {
             if (item instanceof SwordItem weaponItem) {
                 return weaponItem.getDamage() + 1F;
-            } else {
-                SwordItem weaponItem = (SwordItem) item;
-                assert false;
-                return weaponItem.getDamage() + 1F;
             }
-        } else
-            return original;
+            if (item instanceof DiggerItem diggerItem) {
+                return diggerItem.getAttackDamage() + 1F;
+            } else {
+                if (item instanceof SwordItem) {
+                    SwordItem weaponItem = (SwordItem) item;
+                    assert false;
+                    return weaponItem.getDamage() + 1F;
+                }
+                if (item instanceof DiggerItem) {
+                    DiggerItem diggerItem = (DiggerItem) item;
+                    assert false;
+                    return diggerItem.getAttackDamage() + 1F;
+                }
+                else return original;
+            }
+        }
+        else return original;
     }
 
     @ModifyVariable(method = "attack", at = @At(value = "INVOKE_ASSIGN", target = "Lnet/minecraft/world/entity/player/Player;getAttackStrengthScale(F)F", shift = Shift.BEFORE), ordinal = 1, require = 0)
@@ -126,7 +140,8 @@ public class PlayerEntityMixin implements PlayerAccess {
 
     @Inject(method = "sweepAttack", at = @At(value = "INVOKE", target = "Lnet/minecraft/server/level/ServerLevel;sendParticles(Lnet/minecraft/core/particles/ParticleOptions;DDDIDDDD)I"), locals = LocalCapture.CAPTURE_FAILSOFT, cancellable = true)
     public void spawnSweepAttackParticles(CallbackInfo info, double d, double e) {
-        if (this.offHandAttack) {
+        Item item = ((Player) (Object) this).getOffhandItem().getItem();
+        if (this.offHandAttack && item instanceof SwordItem) {
             Player playerEntity = (Player) (Object) this;
             ((ServerLevel) playerEntity.level).sendParticles(ModParticles.OFFHAND_SWEEPING, playerEntity.getX() + d, playerEntity.getY(0.5D), playerEntity.getZ() + e, 0, d, 0.0D, e, 0.0D);
             info.cancel();
