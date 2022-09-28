@@ -13,16 +13,14 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(Enchantment.class)
-@SuppressWarnings("ConstantConditions")
 public abstract class SickleModification {
 
     // Sickles cannot be enchanted with Sweeping Edge or Fire Aspect
 
-    @Final
-    public EnchantmentCategory type;
+    @Final public EnchantmentCategory type;
 
     @Inject(method = "canEnchant", at = @At("HEAD"), cancellable = true)
-    public void isAcceptableItem(ItemStack stack, CallbackInfoReturnable<Boolean> cir) {
+    public void canEnchant(ItemStack stack, CallbackInfoReturnable<Boolean> cir) {
         Enchantment enchantment = (Enchantment) (Object) this;
         if (enchantment instanceof SweepingEdgeEnchantment) {
             if ((stack.getItem() instanceof SickleItem)) {

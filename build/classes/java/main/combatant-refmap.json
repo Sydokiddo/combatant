@@ -7,6 +7,10 @@
     "net/sydokiddo/combatant/mixin/items/sickles/EnchantmentMixin": {
       "getSlotItems": "Lnet/minecraft/class_1887;method_8185(Lnet/minecraft/class_1309;)Ljava/util/Map;"
     },
+    "net/sydokiddo/combatant/mixin/items/trident/TridentItemMixin": {
+      "mineBlock": "Lnet/minecraft/class_1835;method_7879(Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;Lnet/minecraft/class_1309;)Z",
+      "getEnchantmentValue": "Lnet/minecraft/class_1835;method_7837()I"
+    },
     "net/sydokiddo/combatant/mixin/items/axe/AxeModification": {
       "canEnchant": "Lnet/minecraft/class_1887;method_8192(Lnet/minecraft/class_1799;)Z"
     },
@@ -45,6 +49,9 @@
     "net/sydokiddo/combatant/mixin/items/sickles/SickleModification": {
       "canEnchant": "Lnet/minecraft/class_1887;method_8192(Lnet/minecraft/class_1799;)Z"
     },
+    "net/sydokiddo/combatant/mixin/items/axe/AxeItemMixin": {
+      "hurtEnemy": "Lnet/minecraft/class_1766;method_7873(Lnet/minecraft/class_1799;Lnet/minecraft/class_1309;Lnet/minecraft/class_1309;)Z"
+    },
     "net/sydokiddo/combatant/mixin/items/sickles/HeldItemRendererMixin": {
       "Lnet/minecraft/client/player/LocalPlayer;getAttackStrengthScale(F)F": "Lnet/minecraft/class_746;method_7261(F)F",
       "tick": "Lnet/minecraft/class_759;method_3220()V",
@@ -79,6 +86,10 @@
       },
       "net/sydokiddo/combatant/mixin/items/sickles/EnchantmentMixin": {
         "getSlotItems": "Lnet/minecraft/class_1887;method_8185(Lnet/minecraft/class_1309;)Ljava/util/Map;"
+      },
+      "net/sydokiddo/combatant/mixin/items/trident/TridentItemMixin": {
+        "mineBlock": "Lnet/minecraft/class_1835;method_7879(Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;Lnet/minecraft/class_1309;)Z",
+        "getEnchantmentValue": "Lnet/minecraft/class_1835;method_7837()I"
       },
       "net/sydokiddo/combatant/mixin/items/axe/AxeModification": {
         "canEnchant": "Lnet/minecraft/class_1887;method_8192(Lnet/minecraft/class_1799;)Z"
@@ -117,6 +128,9 @@
       },
       "net/sydokiddo/combatant/mixin/items/sickles/SickleModification": {
         "canEnchant": "Lnet/minecraft/class_1887;method_8192(Lnet/minecraft/class_1799;)Z"
+      },
+      "net/sydokiddo/combatant/mixin/items/axe/AxeItemMixin": {
+        "hurtEnemy": "Lnet/minecraft/class_1766;method_7873(Lnet/minecraft/class_1799;Lnet/minecraft/class_1309;Lnet/minecraft/class_1309;)Z"
       },
       "net/sydokiddo/combatant/mixin/items/sickles/HeldItemRendererMixin": {
         "Lnet/minecraft/client/player/LocalPlayer;getAttackStrengthScale(F)F": "Lnet/minecraft/class_746;method_7261(F)F",

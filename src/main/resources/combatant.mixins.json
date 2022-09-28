@@ -8,6 +8,7 @@
     "enchantments.aerial_affinity.ItemModification",
     "enchantments.aerial_affinity.PlayerEntityMixin",
     "enchantments.protection.ProtectionEnchantmentMixin",
+    "items.axe.AxeItemMixin",
     "items.axe.AxeModification",
     "items.blast_proof.BlastProofItemsMixin",
     "items.misc.EggEntityMixin",
@@ -19,6 +20,7 @@
     "items.sickles.SickleModification",
     "items.trident.TridentItemMixin",
     "items.trident.TridentModification",
+    "misc.blocks.BambooBlockMixin",
     "util.SimpleParticleTypeAccessor"
   ],
   "client": [

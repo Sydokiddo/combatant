@@ -9,6 +9,7 @@
     "enchantments.aerial_affinity.PlayerEntityMixin",
     "enchantments.protection.ProtectionEnchantmentMixin",
     "items.axe.AxeModification",
+    "items.axe.AxeItemMixin",
     "items.blast_proof.BlastProofItemsMixin",
     "items.misc.EggEntityMixin",
     "items.misc.SnowballEntityMixin",

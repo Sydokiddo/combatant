@@ -21,7 +21,7 @@ public abstract class AxeModification {
     @Final
     public EnchantmentCategory category;
     @Inject(method = "canEnchant", at = @At("HEAD"), cancellable = true)
-    public void isAcceptableItem(ItemStack stack, CallbackInfoReturnable<Boolean> cir) {
+    public void canEnchant(ItemStack stack, CallbackInfoReturnable<Boolean> cir) {
         Enchantment enchantment = (Enchantment) (Object) this;
         if (enchantment instanceof LootBonusEnchantment) {
             if (category != EnchantmentCategory.WEAPON || !(stack.getItem() instanceof AxeItem)) return;
