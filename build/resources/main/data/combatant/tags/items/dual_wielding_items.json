@@ -5,6 +5,7 @@
     "combatant:golden_sickle",
     "combatant:iron_sickle",
     "combatant:diamond_sickle",
-    "combatant:netherite_sickle"
+    "combatant:netherite_sickle",
+    "minecraft:diamond_pickaxe"
   ]
 }

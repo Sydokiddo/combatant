@@ -1,0 +1,51 @@
+{
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2022-09-28 10:33:38 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2022-09-28 10:33:38 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2022-09-28 10:33:38 -0700"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2022-09-28 10:33:38 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2022-09-28 10:33:38 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2022-09-28 10:34:12 -0700",
+      "minecraft:sparse_jungle": "2022-09-28 10:33:43 -0700",
+      "minecraft:river": "2022-09-28 10:34:08 -0700",
+      "minecraft:forest": "2022-09-28 10:35:59 -0700",
+      "minecraft:jungle": "2022-09-28 10:34:08 -0700",
+      "minecraft:old_growth_birch_forest": "2022-09-28 10:36:04 -0700",
+      "minecraft:plains": "2022-09-28 10:36:16 -0700"
+    },
+    "done": false
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2022-09-28 10:33:38 -0700"
+    },
+    "done": true
+  },
+  "DataVersion": 3120
+}

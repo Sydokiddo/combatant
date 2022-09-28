@@ -33,7 +33,7 @@ public class ProtectionEnchantmentMixin extends Enchantment {
         } else if (this.type == ProtectionEnchantment.Type.FIRE && damageSource.isFire()) {
             cir.setReturnValue(i * 2);
         } else if (this.type == ProtectionEnchantment.Type.FALL && damageSource.isFall()) {
-            cir.setReturnValue(i * 3);
+            cir.setReturnValue(i * 6);
         } else if (this.type == ProtectionEnchantment.Type.EXPLOSION && damageSource.isExplosion()) {
             cir.setReturnValue(i * 2);
         } else {
