@@ -19,8 +19,8 @@ public abstract class ItemModification {
 
     // Mixin to allow the Aerial Affinity enchantment to be put onto a Chestplate or Elytra
 
-    @Final
-    public EnchantmentCategory type;
+    @Final public EnchantmentCategory type;
+
     @Inject(method = "canEnchant", at = @At("HEAD"), cancellable = true)
     public void isAcceptableItem(ItemStack stack, CallbackInfoReturnable<Boolean> cir) {
         Enchantment enchantment = (Enchantment) (Object) this;

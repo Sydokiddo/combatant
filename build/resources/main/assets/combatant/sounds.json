@@ -1,0 +1,9 @@
+{
+  "item.trident.impale": {
+    "sounds": [
+      "combatant:item/trident/impale1",
+      "combatant:item/trident/impale2"
+    ],
+    "subtitle": "subtitles.item.trident.impale"
+  }
+}

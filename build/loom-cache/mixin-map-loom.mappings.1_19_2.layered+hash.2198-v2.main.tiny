@@ -1,5 +1,7 @@
 v1	named	intermediary
 FIELD	net/sydokiddo/combatant/mixin/enchantments/aerial_affinity/PlayerEntityMixin	Lnet/minecraft/world/entity/player/Inventory;	inventory	field_7514
+FIELD	net/sydokiddo/combatant/mixin/enchantments/impaling/TridentEntityMixin	Lnet/minecraft/world/item/ItemStack;	tridentItem	field_7650
+FIELD	net/sydokiddo/combatant/mixin/enchantments/impaling/TridentEntityMixin	Z	dealtDamage	field_7648
 FIELD	net/sydokiddo/combatant/mixin/enchantments/protection/ProtectionEnchantmentMixin	Lnet/minecraft/world/item/enchantment/ProtectionEnchantment$Type;	type	field_9133
 FIELD	net/sydokiddo/combatant/mixin/items/axe/AxeModification	Lnet/minecraft/world/item/enchantment/EnchantmentCategory;	category	field_9083
 FIELD	net/sydokiddo/combatant/mixin/items/sickles/HeldItemRendererMixin	F	mainHandHeight	field_4043
@@ -15,5 +17,7 @@ FIELD	net/sydokiddo/combatant/mixin/items/sickles/MinecraftClientMixin	Lnet/mine
 FIELD	net/sydokiddo/combatant/mixin/items/sickles/MinecraftClientMixin	Lnet/minecraft/world/phys/HitResult;	hitResult	field_1765
 FIELD	net/sydokiddo/combatant/mixin/items/trident/TridentModification	Lnet/minecraft/world/item/enchantment/EnchantmentCategory;	category	field_9083
 FIELD	net/sydokiddo/combatant/mixin/PlayerManagerMixin	Lorg/slf4j/Logger;	LOGGER	field_14349
+METHOD	net/sydokiddo/combatant/mixin/enchantments/impaling/ImpalingEnchantmentMixin	(ILnet/minecraft/world/entity/MobType;)F	getDamageBonus	method_8196
+METHOD	net/sydokiddo/combatant/mixin/enchantments/impaling/TridentEntityMixin	()Z	isChanneling	method_31551
 METHOD	net/sydokiddo/combatant/mixin/items/misc/ItemStackMixin	()Lnet/minecraft/world/item/Item;	getItem	method_7909
 METHOD	net/sydokiddo/combatant/mixin/items/sickles/PlayerEntityMixin	()F	getCurrentItemAttackStrengthDelay	method_7279

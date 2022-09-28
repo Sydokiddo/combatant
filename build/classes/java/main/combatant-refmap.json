@@ -35,7 +35,8 @@
       "Lnet/minecraft/client/Minecraft;handleKeybinds()V": "Lnet/minecraft/class_310;method_1508()V"
     },
     "net/sydokiddo/combatant/mixin/items/potions/PotionItemMixin": {
-      "useOn": "Lnet/minecraft/class_1812;method_7884(Lnet/minecraft/class_1838;)Lnet/minecraft/class_1269;"
+      "useOn": "Lnet/minecraft/class_1812;method_7884(Lnet/minecraft/class_1838;)Lnet/minecraft/class_1269;",
+      "finishUsingItem": "Lnet/minecraft/class_1812;method_7861(Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;)Lnet/minecraft/class_1799;"
     },
     "net/sydokiddo/combatant/mixin/items/sickles/SickleModification": {
       "canEnchant": "Lnet/minecraft/class_1887;method_8192(Lnet/minecraft/class_1799;)Z"
@@ -84,6 +85,9 @@
     "net/sydokiddo/combatant/mixin/util/SimpleParticleTypeAccessor": {
       "<init>": "<init>"
     },
+    "net/sydokiddo/combatant/mixin/enchantments/impaling/TridentEntityMixin": {
+      "onHitEntity": "Lnet/minecraft/class_1685;method_7454(Lnet/minecraft/class_3966;)V"
+    },
     "net/sydokiddo/combatant/mixin/enchantments/protection/ProtectionEnchantmentMixin": {
       "getDamageProtection": "Lnet/minecraft/class_1900;method_8181(ILnet/minecraft/class_1282;)I"
     },
@@ -94,6 +98,10 @@
       "renderHotbar": "Lnet/minecraft/class_329;method_1759(FLnet/minecraft/class_4587;)V",
       "Lnet/minecraft/client/player/LocalPlayer;getAttackStrengthScale(F)F": "Lnet/minecraft/class_746;method_7261(F)F",
       "renderCrosshair": "Lnet/minecraft/class_329;method_1736(Lnet/minecraft/class_4587;)V"
+    },
+    "net/sydokiddo/combatant/mixin/enchantments/impaling/PlayerEntityMixin": {
+      "attack": "Lnet/minecraft/class_1657;method_7324(Lnet/minecraft/class_1297;)V",
+      "Lnet/minecraft/world/item/enchantment/EnchantmentHelper;getDamageBonus(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/MobType;)F": "Lnet/minecraft/class_1890;method_8218(Lnet/minecraft/class_1799;Lnet/minecraft/class_1310;)F"
     }
   },
   "data": {
@@ -133,7 +141,8 @@
         "Lnet/minecraft/client/Minecraft;handleKeybinds()V": "Lnet/minecraft/class_310;method_1508()V"
       },
       "net/sydokiddo/combatant/mixin/items/potions/PotionItemMixin": {
-        "useOn": "Lnet/minecraft/class_1812;method_7884(Lnet/minecraft/class_1838;)Lnet/minecraft/class_1269;"
+        "useOn": "Lnet/minecraft/class_1812;method_7884(Lnet/minecraft/class_1838;)Lnet/minecraft/class_1269;",
+        "finishUsingItem": "Lnet/minecraft/class_1812;method_7861(Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;)Lnet/minecraft/class_1799;"
       },
       "net/sydokiddo/combatant/mixin/items/sickles/SickleModification": {
         "canEnchant": "Lnet/minecraft/class_1887;method_8192(Lnet/minecraft/class_1799;)Z"
@@ -182,6 +191,9 @@
       "net/sydokiddo/combatant/mixin/util/SimpleParticleTypeAccessor": {
         "<init>": "<init>"
       },
+      "net/sydokiddo/combatant/mixin/enchantments/impaling/TridentEntityMixin": {
+        "onHitEntity": "Lnet/minecraft/class_1685;method_7454(Lnet/minecraft/class_3966;)V"
+      },
       "net/sydokiddo/combatant/mixin/enchantments/protection/ProtectionEnchantmentMixin": {
         "getDamageProtection": "Lnet/minecraft/class_1900;method_8181(ILnet/minecraft/class_1282;)I"
       },
@@ -192,6 +204,10 @@
         "renderHotbar": "Lnet/minecraft/class_329;method_1759(FLnet/minecraft/class_4587;)V",
         "Lnet/minecraft/client/player/LocalPlayer;getAttackStrengthScale(F)F": "Lnet/minecraft/class_746;method_7261(F)F",
         "renderCrosshair": "Lnet/minecraft/class_329;method_1736(Lnet/minecraft/class_4587;)V"
+      },
+      "net/sydokiddo/combatant/mixin/enchantments/impaling/PlayerEntityMixin": {
+        "attack": "Lnet/minecraft/class_1657;method_7324(Lnet/minecraft/class_1297;)V",
+        "Lnet/minecraft/world/item/enchantment/EnchantmentHelper;getDamageBonus(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/MobType;)F": "Lnet/minecraft/class_1890;method_8218(Lnet/minecraft/class_1799;Lnet/minecraft/class_1310;)F"
       }
     }
   }

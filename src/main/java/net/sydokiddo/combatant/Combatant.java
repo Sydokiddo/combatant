@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 import net.sydokiddo.combatant.registry.enchantment.ModEnchantments;
 import net.sydokiddo.combatant.registry.item.ModItems;
 import net.sydokiddo.combatant.registry.misc.ModParticles;
+import net.sydokiddo.combatant.registry.misc.ModSoundEvents;
 import net.sydokiddo.combatant.util.PlayerAttackPacket;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,6 +19,7 @@ public class Combatant implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModParticles.PARTICLES.register();
+		ModSoundEvents.registerSounds();
 		PlayerAttackPacket.init();
 		ModEnchantments.registerModEnchantments();
 

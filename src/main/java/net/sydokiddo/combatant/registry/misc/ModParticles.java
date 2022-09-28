@@ -14,6 +14,7 @@ import net.sydokiddo.combatant.util.CoreRegistry;
 
 public class ModParticles {
     public static final CoreRegistry<ParticleType<?>> PARTICLES = CoreRegistry.create(Registry.PARTICLE_TYPE_REGISTRY, Combatant.MOD_ID);
+
     public static final SimpleParticleType OFFHAND_SWEEPING = register("offhand_sweep_attack", false);
 
     public static SimpleParticleType register(String id, boolean bl) {
