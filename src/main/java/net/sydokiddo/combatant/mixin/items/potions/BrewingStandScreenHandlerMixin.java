@@ -32,8 +32,8 @@ public abstract class BrewingStandScreenHandlerMixin extends AbstractContainerMe
             for (int i = 0; i < 3; i++) {
                 Slot slot2 = this.getSlot(i);
                 if (slot2.getItem().isEmpty() && slot.mayPlace(itemStack2)) {
-                    if (itemStack2.getCount() > slot2.getMaxStackSize()) {
-                        slot2.set(itemStack2.split(slot2.getMaxStackSize()));
+                    if (itemStack2.getCount() > 1) {
+                        slot2.set(itemStack2.split(1));
                     } else {
                         slot2.set(itemStack2.split(itemStack2.getCount()));
                     }

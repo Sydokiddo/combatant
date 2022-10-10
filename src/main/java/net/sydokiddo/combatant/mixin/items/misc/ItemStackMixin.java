@@ -14,7 +14,7 @@ public abstract class ItemStackMixin {
 
     // Changes the max stack size of various items
 
-    @Inject(method = "getMaxStackSize", at = @At("HEAD"), cancellable = true)
+    @Inject(method = "getMaxStackSize", at = @At("RETURN"), cancellable = true)
     private void getMaxStackSize(CallbackInfoReturnable<Integer> cir) {
 
         if (this.getItem() instanceof PotionItem || this.getItem() instanceof SplashPotionItem || this.getItem() instanceof LingeringPotionItem) {
@@ -22,9 +22,6 @@ public abstract class ItemStackMixin {
         }
         if (this.getItem() instanceof SnowballItem || this.getItem() instanceof EggItem) {
             cir.setReturnValue(64);
-        }
-        if (this.getItem() instanceof EnchantedBookItem) {
-            cir.setReturnValue(8);
         }
         if (this.getItem() instanceof MinecartItem || this.getItem() instanceof BoatItem) {
             cir.setReturnValue(16);

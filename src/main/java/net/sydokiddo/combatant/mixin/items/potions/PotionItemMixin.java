@@ -57,19 +57,20 @@ public abstract class PotionItemMixin extends Item {
             }
         }
 
-        if (player != null) {
+        if (player instanceof ServerPlayer) {
+
             player.awardStat(Stats.ITEM_USED.get(this));
             if (!player.getAbilities().instabuild) {
                 itemStack.shrink(1);
             }
-        }
 
-        assert player != null;
-        if (!player.getAbilities().instabuild) {
-            ItemStack itemStack2 = new ItemStack(Items.GLASS_BOTTLE);
-            if (!player.getInventory().add(itemStack2)) {
-                player.drop(itemStack2, false);
+            if (!player.getAbilities().instabuild) {
+                ItemStack itemStack2 = new ItemStack(Items.GLASS_BOTTLE);
+                if (!player.getInventory().add(itemStack2)) {
+                    player.drop(itemStack2, false);
+                }
             }
+
         }
 
         livingEntity.gameEvent(GameEvent.DRINK);
@@ -96,6 +97,7 @@ public abstract class PotionItemMixin extends Item {
 
             if (!player.getAbilities().instabuild) {
                 ItemStack itemStack2 = new ItemStack(Items.GLASS_BOTTLE);
+                itemStack.shrink(1);
                 if (!player.getInventory().add(itemStack2)) {
                     player.drop(itemStack2, false);
                 }
