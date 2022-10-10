@@ -1,0 +1,130 @@
+{
+  "worldGeneration": {
+    "biomeGenerationConfig": {
+      "chorus_crags": true,
+      "blighted_barrens": true,
+      "obsidian_obelisks": true
+    },
+    "structureGenerationConfig": {
+      "ethereal_city": true
+    }
+  },
+  "mobs": {
+    "modMobsConfig": {
+      "fleet": true,
+      "ethereal": true
+    },
+    "vanillaMobsConfig": {
+      "endermiteConfig": {
+        "new_sounds": true,
+        "hostile_to_everything": true,
+        "vulnerability_on_damage": true,
+        "able_to_teleport": true,
+        "hurt_by_water": true,
+        "retreat_sound": true
+      },
+      "shulkerConfig": {
+        "shulker_bullet_dropping": true,
+        "dyeable_shulkers": true
+      },
+      "enderDragonConfig": {
+        "increased_health": true,
+        "explosion_immunity": true,
+        "nerfed_end_crystals": true,
+        "always_spawn_dragon_egg": true,
+        "enable_dragon_omelettes": true
+      }
+    }
+  },
+  "itemChanges": {
+    "elytraConfig": {
+      "elytra_camera": true,
+      "elytra_camera_sensitivity": 16,
+      "elytra_closing": true,
+      "elytra_closing_message": true,
+      "elytra_opening_sound": true,
+      "elytra_hopping": true,
+      "aerial_fatigue": true,
+      "aerial_fatigue_time": 100,
+      "firework_cooldown": true
+    },
+    "chorusFruitConfig": {
+      "unique_eating_sound": true,
+      "endermites_from_chorus_fruit": true
+    },
+    "potionConfig": {
+      "allow_levitation_potions": true,
+      "allow_disorientation_potions": true
+    },
+    "dragonBreathConfig": {
+      "placeable_dragon_breath": true,
+      "ambient_sound": true
+    },
+    "tridentConfig": {
+      "loyalty_trident_void_returning": true,
+      "riptide_cooldown": true
+    }
+  },
+  "sounds": {
+    "blockSoundConfig": {
+      "chorus_plant_sounds": true,
+      "purpur_sounds": true,
+      "end_stone_sounds": true,
+      "shulker_box_sounds": true,
+      "end_rod_sounds": true,
+      "dragon_egg_sounds": true
+    },
+    "itemSoundConfig": {
+      "ender_pearl_sound": true,
+      "end_crystal_sound": true
+    },
+    "miscSoundConfig": {
+      "end_gateway_teleport_sound": true,
+      "end_portal_ambient_sound": true,
+      "end_portal_travel_sound": true,
+      "end_ambient_sound": true,
+      "end_mood_sound": true
+    }
+  },
+  "visualEffects": {
+    "particlesConfig": {
+      "updraft_particles": true,
+      "iolite_particles": true,
+      "chorus_pollen_particles": true,
+      "elytra_chitin_particles": true,
+      "end_particles": true
+    },
+    "renderingConfig": {
+      "fancy_end_portal": true,
+      "emissive_textures": true,
+      "updated_lightmap": true,
+      "end_sky_color": true,
+      "end_fog_color": true,
+      "dark_mode": false,
+      "fixed_elytra_model": true
+    }
+  },
+  "blocks": {
+    "endPortalConfig": {
+      "breakable_end_portal_frames": true
+    },
+    "chorusFlowerConfig": {
+      "humming": true,
+      "shearing": true,
+      "bone_mealing": true,
+      "bouncing": true
+    },
+    "dragonEggConfig": {
+      "picking_up": true,
+      "teleporting_sound": true,
+      "ambient_sound": true
+    },
+    "composterConfig": {
+      "chorus_flower": true,
+      "chorus_plant": true,
+      "chorus_fruit": true,
+      "purified_chorus_fruit": true,
+      "poproot": true
+    }
+  }
+}

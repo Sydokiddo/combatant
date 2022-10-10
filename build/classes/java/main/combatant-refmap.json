@@ -34,6 +34,9 @@
       "startUseItem": "Lnet/minecraft/class_310;method_1583()V",
       "Lnet/minecraft/client/Minecraft;handleKeybinds()V": "Lnet/minecraft/class_310;method_1508()V"
     },
+    "net/sydokiddo/combatant/mixin/enchantments/stomping/StompingEnchantmentMixin": {
+      "touch": "Lnet/minecraft/class_1657;method_7341(Lnet/minecraft/class_1297;)V"
+    },
     "net/sydokiddo/combatant/mixin/items/potions/PotionItemMixin": {
       "useOn": "Lnet/minecraft/class_1812;method_7884(Lnet/minecraft/class_1838;)Lnet/minecraft/class_1269;",
       "finishUsingItem": "Lnet/minecraft/class_1812;method_7861(Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;)Lnet/minecraft/class_1799;"
@@ -139,6 +142,9 @@
         "tick()V": "Lnet/minecraft/class_310;method_1574()V",
         "startUseItem": "Lnet/minecraft/class_310;method_1583()V",
         "Lnet/minecraft/client/Minecraft;handleKeybinds()V": "Lnet/minecraft/class_310;method_1508()V"
+      },
+      "net/sydokiddo/combatant/mixin/enchantments/stomping/StompingEnchantmentMixin": {
+        "touch": "Lnet/minecraft/class_1657;method_7341(Lnet/minecraft/class_1297;)V"
       },
       "net/sydokiddo/combatant/mixin/items/potions/PotionItemMixin": {
         "useOn": "Lnet/minecraft/class_1812;method_7884(Lnet/minecraft/class_1838;)Lnet/minecraft/class_1269;",

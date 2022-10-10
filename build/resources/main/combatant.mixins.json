@@ -11,6 +11,7 @@
     "enchantments.impaling.PlayerEntityMixin",
     "enchantments.impaling.TridentEntityMixin",
     "enchantments.protection.ProtectionEnchantmentMixin",
+    "enchantments.stomping.StompingEnchantmentMixin",
     "items.axe.AxeItemMixin",
     "items.axe.AxeModification",
     "items.blast_proof.BlastProofItemsMixin",

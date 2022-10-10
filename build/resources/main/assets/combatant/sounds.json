@@ -5,5 +5,12 @@
       "combatant:item/trident/impale2"
     ],
     "subtitle": "subtitles.item.trident.impale"
+  },
+  "enchantment.stomping.stomp": {
+    "sounds": [
+      "combatant:enchantment/stomping/stomp1",
+      "combatant:enchantment/stomping/stomp2"
+    ],
+    "subtitle": "subtitles.enchantment.stomping.stomp"
   }
 }
