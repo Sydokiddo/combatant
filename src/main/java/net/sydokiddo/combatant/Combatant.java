@@ -1,6 +1,8 @@
 package net.sydokiddo.combatant;
 
 import net.fabricmc.api.ModInitializer;
+import net.minecraft.world.damagesource.EntityDamageSource;
+import net.minecraft.world.entity.Entity;
 import net.sydokiddo.combatant.registry.enchantment.ModEnchantments;
 import net.sydokiddo.combatant.registry.item.ModItems;
 import net.sydokiddo.combatant.registry.misc.ModParticles;
@@ -26,5 +28,14 @@ public class Combatant implements ModInitializer {
 		// Registry:
 
 		LOGGER.info("Thank you for downloading Combatant! :)");
+	}
+
+	// Stomping Damage Source for Stomping Enchantment
+
+	public static class StompingDamageSource extends EntityDamageSource {
+
+		public StompingDamageSource(Entity source) {
+			super("stomping", source);
+		}
 	}
 }

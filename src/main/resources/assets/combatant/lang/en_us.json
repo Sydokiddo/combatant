@@ -7,10 +7,17 @@
   "item.combatant.netherite_sickle": "Netherite Sickle",
 
   "subtitles.item.trident.impale": "Trident impales",
+  "subtitles.enchantment.stomping.stomp": "Stomping attack",
 
   "enchantment.combatant.aerial_affinity": "Aerial Affinity",
   "enchantment.combatant.aerial_affinity.desc": "Increases mining speed while mid-air.",
 
   "enchantment.combatant.arcane_protection": "Arcane Protection",
-  "enchantment.combatant.arcane_protection.desc": "Reduces damage from magic related sources."
+  "enchantment.combatant.arcane_protection.desc": "Reduces damage from magic related sources.",
+
+  "enchantment.combatant.stomping": "Stomping",
+  "enchantment.combatant.stomping.desc": "Allows the player to fall onto mobs to deal damage.",
+
+  "death.attack.stomping": "%1$s was stomped on by %2$s",
+  "death.attack.stomping.player": "%1$s was stomped on by %2$s whilst trying to escape %2$s"
 }

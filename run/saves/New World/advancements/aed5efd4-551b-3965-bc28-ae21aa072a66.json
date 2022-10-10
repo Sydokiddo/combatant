@@ -77,6 +77,21 @@
     },
     "done": true
   },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:creeper": "2022-10-10 16:00:26 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2022-10-10 16:02:19 -0700",
+      "minecraft:spider": "2022-10-10 16:01:58 -0700",
+      "minecraft:creeper": "2022-10-10 16:00:26 -0700",
+      "minecraft:zombie": "2022-10-10 16:00:36 -0700"
+    },
+    "done": false
+  },
   "minecraft:recipes/decorations/loom": {
     "criteria": {
       "has_string": "2022-09-24 00:09:21 -0700"
@@ -109,7 +124,9 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:beach": "2022-10-10 15:59:32 -0700",
       "minecraft:river": "2022-09-24 00:09:25 -0700",
+      "minecraft:forest": "2022-10-10 15:59:59 -0700",
       "minecraft:plains": "2022-09-24 00:09:46 -0700"
     },
     "done": false
@@ -213,6 +230,12 @@
   "minecraft:recipes/building_blocks/orange_concrete_powder": {
     "criteria": {
       "has_sand": "2022-09-24 00:09:21 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2022-10-10 16:00:26 -0700"
     },
     "done": true
   },
