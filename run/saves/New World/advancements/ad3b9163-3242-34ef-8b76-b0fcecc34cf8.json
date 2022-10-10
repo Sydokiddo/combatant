@@ -1,0 +1,15 @@
+{
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2022-10-10 14:51:33 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2022-10-10 14:51:10 -0700"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}

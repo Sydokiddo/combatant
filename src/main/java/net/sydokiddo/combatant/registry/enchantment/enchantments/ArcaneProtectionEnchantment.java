@@ -12,11 +12,11 @@ public class ArcaneProtectionEnchantment extends Enchantment {
     }
 
     public int getMinCost(int i) {
-        return 5;
+        return 10 + (i - 1) * 8;
     }
 
     public int getMaxCost(int i) {
-        return 8;
+        return this.getMinCost(i) + 8;
     }
 
     public int getMaxLevel() {

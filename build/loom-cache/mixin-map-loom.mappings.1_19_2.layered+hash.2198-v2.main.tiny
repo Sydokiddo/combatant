@@ -4,6 +4,7 @@ FIELD	net/sydokiddo/combatant/mixin/enchantments/impaling/TridentEntityMixin	Lne
 FIELD	net/sydokiddo/combatant/mixin/enchantments/impaling/TridentEntityMixin	Z	dealtDamage	field_7648
 FIELD	net/sydokiddo/combatant/mixin/enchantments/protection/ProtectionEnchantmentMixin	Lnet/minecraft/world/item/enchantment/ProtectionEnchantment$Type;	type	field_9133
 FIELD	net/sydokiddo/combatant/mixin/items/axe/AxeModification	Lnet/minecraft/world/item/enchantment/EnchantmentCategory;	category	field_9083
+FIELD	net/sydokiddo/combatant/mixin/items/misc/SlotMixin	Lnet/minecraft/world/Container;	container	field_7871
 FIELD	net/sydokiddo/combatant/mixin/items/sickles/HeldItemRendererMixin	F	mainHandHeight	field_4043
 FIELD	net/sydokiddo/combatant/mixin/items/sickles/HeldItemRendererMixin	F	oOffHandHeight	field_4051
 FIELD	net/sydokiddo/combatant/mixin/items/sickles/HeldItemRendererMixin	Lnet/minecraft/client/Minecraft;	minecraft	field_4050
