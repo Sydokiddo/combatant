@@ -1,5 +1,5 @@
-[15:00:16] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.19.2 with Fabric Loader 0.14.9
-[15:00:16] [main/INFO] (FabricLoader) Loading 46 mods:
+[15:15:59] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.19.2 with Fabric Loader 0.14.9
+[15:15:59] [main/INFO] (FabricLoader) Loading 46 mods:
 	- cloth-basic-math 0.6.1
 	- cloth-config 7.0.65
 	- combatant 0.0.3-1.19.x
@@ -46,15 +46,15 @@
 	- java 17
 	- minecraft 1.19.2
 	- modmenu 4.0.5
-[15:00:16] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Sydney/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/c1dc27696aa4006e492c2485c9ccbcb26045a971/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
-[15:00:16] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[15:00:17] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
-[15:00:17] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[15:00:19] [main/WARN] (FileUtil) Configuration conflict: there is more than one oshi.properties file on the classpath
-[15:00:19] [main/WARN] (FileUtil) Configuration conflict: there is more than one oshi.architecture.properties file on the classpath
-[15:00:25] [main/INFO] (Minecraft) Building optimized datafixer
-[15:00:32] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[15:00:33] [Render thread/ERROR] (fabric-screen-api-v1) Failed to verify authentication
+[15:16:00] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Sydney/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/c1dc27696aa4006e492c2485c9ccbcb26045a971/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[15:16:00] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[15:16:00] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[15:16:00] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[15:16:02] [main/WARN] (FileUtil) Configuration conflict: there is more than one oshi.properties file on the classpath
+[15:16:02] [main/WARN] (FileUtil) Configuration conflict: there is more than one oshi.architecture.properties file on the classpath
+[15:16:07] [main/INFO] (Minecraft) Building optimized datafixer
+[15:16:16] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:16:17] [Render thread/ERROR] (fabric-screen-api-v1) Failed to verify authentication
 com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
 	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-3.11.49.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:155) ~[authlib-3.11.49.jar:?]
@@ -73,14 +73,14 @@ Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 4
 	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-3.11.49.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-3.11.49.jar:?]
 	... 10 more
-[15:00:33] [Render thread/INFO] (fabric-screen-api-v1) Setting user: Player426
-[15:00:34] [Render thread/INFO] (Minecraft) [STDOUT]: Registering Items for combatant
-[15:00:34] [Render thread/INFO] (Minecraft) [STDOUT]: Registering Sounds for combatant
-[15:00:34] [Render thread/INFO] (Minecraft) [STDOUT]: Registering Enchantments for combatant
-[15:00:34] [Render thread/INFO] (combatant) Thank you for downloading Combatant! :)
-[15:00:34] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[15:00:35] [Render thread/INFO] (fabric-screen-api-v1) Backend library: LWJGL version 3.3.1 SNAPSHOT
-[15:00:41] [Worker-Main-8/ERROR] (Minecraft) Failed to retrieve profile key pair
+[15:16:17] [Render thread/INFO] (fabric-screen-api-v1) Setting user: Player485
+[15:16:17] [Render thread/INFO] (Minecraft) [STDOUT]: Registering Items for combatant
+[15:16:17] [Render thread/INFO] (Minecraft) [STDOUT]: Registering Sounds for combatant
+[15:16:17] [Render thread/INFO] (Minecraft) [STDOUT]: Registering Enchantments for combatant
+[15:16:17] [Render thread/INFO] (combatant) Thank you for downloading Combatant! :)
+[15:16:18] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[15:16:19] [Render thread/INFO] (fabric-screen-api-v1) Backend library: LWJGL version 3.3.1 SNAPSHOT
+[15:16:23] [Worker-Main-8/ERROR] (Minecraft) Failed to retrieve profile key pair
 java.io.IOException: Could not retrieve profile key pair
 	at net.minecraft.client.multiplayer.ProfileKeyPairManager.fetchProfileKeyPair(ProfileKeyPairManager.java:130) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.multiplayer.ProfileKeyPairManager.method_44291(ProfileKeyPairManager.java:69) ~[minecraft-project-@-merged-named.jar:?]
@@ -91,26 +91,27 @@ java.io.IOException: Could not retrieve profile key pair
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-[15:00:41] [Render thread/INFO] (Minecraft) Narrator library for x64 successfully loaded
-[15:00:41] [Render thread/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Mods (Fabric Message API (v1), Fabric Events Interaction (v0), Fabric Item Groups (v0), Fabric API Base, Fabric Lifecycle Events (v1), Fabric BlockRenderLayer Registration (v1), Fabric Transfer API (v1), Fabric API Lookup API (v1), Fabric Renderer - Indigo, Fabric Transitive Access Wideners (v1), Fabric Convention Tags, Fabric Rendering (v1), Fabric Biome API (v1), Fabric Object Builder API (v1), Mod Menu, Fabric Networking API (v1), Fabric Rendering Fluids (v1), Fabric Game Test API (v1), Fabric Crash Report Info (v1), Fabric Mining Level API (v1), Fabric Rendering Data Attachment (v1), Fabric Screen Handler API (v1), Fabric Loot API (v2), Fabric Textures (v0), Fabric Resource Conditions API (v1), Fabric Key Binding API (v1), Fabric Registry Sync (v0), Fabric Dimensions API (v1), Fabric Renderer API (v1), Fabric Entity Events (v1), Fabric Models (v0), Fabric Item API (v1), Fabric Resource Loader (v0), Fabric Screen API (v1), Fabric Game Rule API (v1), Fabric Data Generation API (v1), Cloth Config v6, Combatant, Fabric Particles (v1), Fabric Content Registries (v0), Fabric Loader, Fabric API, Fabric Command API (v2))
-[15:00:43] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
-[15:00:47] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
-[15:00:47] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[15:00:47] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Speakers (2- USB Advanced Audio Device)
-[15:00:47] [Render thread/INFO] (Minecraft) Sound engine started
-[15:00:48] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[15:00:48] [Render thread/INFO] (Minecraft) Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[15:00:48] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[15:00:48] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[15:00:48] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[15:00:48] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[15:00:48] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[15:00:50] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[15:00:51] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[15:00:51] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[15:00:51] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[15:01:02] [Worker-Main-9/ERROR] (Minecraft) Couldn't load tag endlessencore:gravity_disobeying_items as it is missing following references: endlessencore:peroratite_sickle (from Combatant)
-[15:01:03] [Render thread/ERROR] (Minecraft) Parsing error loading recipe endlessencore:peroratite_sickle_smithing
+[15:16:23] [Render thread/INFO] (Minecraft) Narrator library for x64 successfully loaded
+[15:16:23] [Render thread/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Mods (Fabric Command API (v2), Cloth Config v6, Fabric Transitive Access Wideners (v1), Fabric Entity Events (v1), Fabric API Base, Fabric Data Generation API (v1), Fabric Biome API (v1), Fabric Content Registries (v0), Fabric Renderer - Indigo, Fabric Item API (v1), Fabric Loot API (v2), Fabric Lifecycle Events (v1), Fabric Key Binding API (v1), Combatant, Fabric Screen Handler API (v1), Fabric Message API (v1), Fabric Textures (v0), Fabric Transfer API (v1), Fabric Models (v0), Fabric Game Test API (v1), Fabric Game Rule API (v1), Fabric Registry Sync (v0), Fabric Networking API (v1), Fabric Object Builder API (v1), Fabric Mining Level API (v1), Fabric Rendering (v1), Fabric Screen API (v1), Fabric API, Fabric Resource Conditions API (v1), Fabric Convention Tags, Fabric Resource Loader (v0), Fabric Loader, Fabric Crash Report Info (v1), Fabric Particles (v1), Fabric Rendering Fluids (v1), Fabric Dimensions API (v1), Mod Menu, Fabric API Lookup API (v1), Fabric Renderer API (v1), Fabric Events Interaction (v0), Fabric Item Groups (v0), Fabric BlockRenderLayer Registration (v1), Fabric Rendering Data Attachment (v1))
+[15:16:25] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[15:16:31] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[15:16:31] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[15:16:32] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Speakers (2- USB Advanced Audio Device)
+[15:16:32] [Render thread/INFO] (Minecraft) Sound engine started
+[15:16:32] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[15:16:33] [Render thread/INFO] (Minecraft) Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[15:16:33] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[15:16:33] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[15:16:33] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[15:16:33] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[15:16:33] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[15:16:36] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[15:16:38] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[15:16:38] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[15:16:38] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[15:17:40] [Worker-Bootstrap-6/INFO] (Minecraft) 4283 Datafixer optimizations took 92978 milliseconds
+[15:19:14] [Worker-Main-12/ERROR] (Minecraft) Couldn't load tag endlessencore:gravity_disobeying_items as it is missing following references: endlessencore:peroratite_sickle (from Combatant)
+[15:19:14] [Render thread/ERROR] (Minecraft) Parsing error loading recipe endlessencore:peroratite_sickle_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'endlessencore:peroratite_ingot'
 	at net.minecraft.world.item.crafting.ShapedRecipe.method_17878(ShapedRecipe.java:253) ~[minecraft-project-@-merged-named.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -147,10 +148,9 @@ com.google.gson.JsonSyntaxException: Unknown item 'endlessencore:peroratite_ingo
 	at net.minecraft.client.MouseHandler.method_22684(MouseHandler.java:165) ~[minecraft-project-@-merged-named.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) [lwjgl-glfw-3.3.1.jar:?]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) [lwjgl-glfw-3.3.1.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:197) [minecraft-project-@-merged-named.jar:?]
-	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:315) [minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1205) [minecraft-project-@-merged-named.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) [lwjgl-glfw-3.3.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:222) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1208) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:768) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.run(Main.java:244) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:51) [minecraft-project-@-merged-named.jar:?]
@@ -158,10 +158,10 @@ com.google.gson.JsonSyntaxException: Unknown item 'endlessencore:peroratite_ingo
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.9.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.9.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[15:01:03] [Render thread/INFO] (Minecraft) Loaded 7 recipes
-[15:01:03] [Render thread/ERROR] (Minecraft) Parsing error loading custom advancement endlessencore:recipes/combat/peroratite_sickle_smithing: Unknown item id 'endlessencore:peroratite_ingot'
-[15:01:03] [Render thread/INFO] (Minecraft) Loaded 1185 advancements
-[15:01:05] [Worker-Main-13/ERROR] (Minecraft) Failed to retrieve profile key pair
+[15:19:14] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[15:19:15] [Render thread/ERROR] (Minecraft) Parsing error loading custom advancement endlessencore:recipes/combat/peroratite_sickle_smithing: Unknown item id 'endlessencore:peroratite_ingot'
+[15:19:15] [Render thread/INFO] (Minecraft) Loaded 1185 advancements
+[15:19:16] [Worker-Main-14/ERROR] (Minecraft) Failed to retrieve profile key pair
 java.io.IOException: Could not retrieve profile key pair
 	at net.minecraft.client.multiplayer.ProfileKeyPairManager.fetchProfileKeyPair(ProfileKeyPairManager.java:130) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.multiplayer.ProfileKeyPairManager.method_44291(ProfileKeyPairManager.java:69) ~[minecraft-project-@-merged-named.jar:?]
@@ -172,59 +172,58 @@ java.io.IOException: Could not retrieve profile key pair
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-[15:01:05] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 63 new biomes in 6.338 ms
-[15:01:05] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.19.2
-[15:01:05] [Server thread/INFO] (Minecraft) Generating keypair
-[15:01:06] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
-[15:01:13] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[15:01:13] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[15:01:13] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[15:01:13] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[15:01:13] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[15:01:13] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[15:01:13] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[15:01:13] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[15:01:13] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[15:01:13] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[15:01:13] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[15:01:13] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[15:01:13] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[15:01:13] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[15:01:14] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[15:01:14] [Render thread/INFO] (Minecraft) Preparing spawn area: 10%
-[15:01:15] [Render thread/INFO] (Minecraft) Preparing spawn area: 22%
-[15:01:15] [Render thread/INFO] (Minecraft) Preparing spawn area: 81%
-[15:01:15] [Render thread/INFO] (Minecraft) Time elapsed: 8954 ms
-[15:01:17] [Server thread/INFO] (Minecraft) Changing view distance to 8, from 10
-[15:01:17] [Server thread/INFO] (Minecraft) Changing simulation distance to 8, from 0
-[15:01:18] [Server thread/WARN] (Minecraft) Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
-[15:01:20] [Server thread/INFO] (Minecraft) Player426[local:E:2969a6f3] logged in with entity id 127 at (-315.67402151636037, 66.0, 161.4424370732486)
-[15:01:21] [Server thread/INFO] (Minecraft) Player426 joined the game
-[15:01:21] [Server thread/INFO] (Minecraft) Player426 has Combatant installed
-[15:01:25] [Render thread/INFO] (Minecraft) Loaded 0 advancements
-[15:01:27] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[15:01:27] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[15:01:27] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[15:01:27] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[15:02:02] [Worker-Bootstrap-4/INFO] (Minecraft) 4283 Datafixer optimizations took 97387 milliseconds
-[15:03:00] [Server thread/INFO] (Minecraft) Player426 has made the advancement [Local Brewery]
-[15:03:00] [Render thread/INFO] (Minecraft) [System] [CHAT] Player426 has made the advancement [Local Brewery]
-[15:03:00] [Render thread/INFO] (Minecraft) Loaded 5 advancements
-[15:03:28] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[15:03:28] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[15:03:28] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[15:03:28] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[15:03:29] [Server thread/INFO] (Minecraft) Player426 lost connection: Disconnected
-[15:03:29] [Server thread/INFO] (Minecraft) Player426 left the game
-[15:03:29] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
-[15:03:29] [Server thread/INFO] (Minecraft) Stopping server
-[15:03:29] [Server thread/INFO] (Minecraft) Saving players
-[15:03:29] [Server thread/INFO] (Minecraft) Saving worlds
-[15:03:30] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[15:03:31] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[15:03:31] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[15:03:31] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World): All chunks are saved
-[15:03:31] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:03:31] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:03:31] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
-[15:03:32] [Render thread/INFO] (fabric-screen-api-v1) Stopping!
+[15:19:16] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 63 new biomes in 4.691 ms
+[15:19:16] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.19.2
+[15:19:16] [Server thread/INFO] (Minecraft) Generating keypair
+[15:19:17] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[15:19:21] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:19:21] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:19:21] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:19:21] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:19:21] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:19:21] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:19:21] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:19:21] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:19:21] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:19:21] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:19:22] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:19:22] [Render thread/INFO] (Minecraft) Preparing spawn area: 16%
+[15:19:23] [Render thread/INFO] (Minecraft) Preparing spawn area: 56%
+[15:19:23] [Render thread/INFO] (Minecraft) Time elapsed: 6419 ms
+[15:19:23] [Server thread/INFO] (Minecraft) Changing view distance to 8, from 10
+[15:19:23] [Server thread/INFO] (Minecraft) Changing simulation distance to 8, from 0
+[15:19:26] [Server thread/INFO] (Minecraft) Player485[local:E:fde7388d] logged in with entity id 127 at (-315.8415332153051, 66.0, 160.16252336201882)
+[15:19:27] [Server thread/INFO] (Minecraft) Player485 joined the game
+[15:19:27] [Server thread/INFO] (Minecraft) Player485 has Combatant installed
+[15:19:28] [Server thread/WARN] (Minecraft) Can't keep up! Is the server overloaded? Running 2806ms or 56 ticks behind
+[15:19:29] [Render thread/INFO] (Minecraft) Loaded 0 advancements
+[15:19:31] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[15:19:31] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[15:19:31] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[15:19:31] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[15:19:50] [Server thread/INFO] (Minecraft) Player485 has made the advancement [Cover Me with Diamonds]
+[15:19:50] [Render thread/INFO] (Minecraft) [System] [CHAT] Player485 has made the advancement [Cover Me with Diamonds]
+[15:19:50] [Render thread/INFO] (Minecraft) Loaded 7 advancements
+[15:19:55] [Server thread/INFO] (Minecraft) [Player485: Applied enchantment Arcane Protection IV to Player485's item]
+[15:19:55] [Render thread/INFO] (Minecraft) [System] [CHAT] Applied enchantment Arcane Protection IV to Player485's item
+[15:19:59] [Render thread/INFO] (Minecraft) [System] [CHAT] Diamond Boots cannot support that enchantment
+[15:20:03] [Server thread/INFO] (Minecraft) [Player485: Applied enchantment Feather Falling IV to Player485's item]
+[15:20:03] [Render thread/INFO] (Minecraft) [System] [CHAT] Applied enchantment Feather Falling IV to Player485's item
+[15:20:19] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[15:20:19] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[15:20:19] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[15:20:19] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[15:20:20] [Server thread/INFO] (Minecraft) Player485 lost connection: Disconnected
+[15:20:20] [Server thread/INFO] (Minecraft) Player485 left the game
+[15:20:20] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[15:20:20] [Server thread/INFO] (Minecraft) Stopping server
+[15:20:20] [Server thread/INFO] (Minecraft) Saving players
+[15:20:20] [Server thread/INFO] (Minecraft) Saving worlds
+[15:20:21] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[15:20:22] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[15:20:22] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[15:20:22] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World): All chunks are saved
+[15:20:22] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:20:22] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:20:22] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[15:20:23] [Render thread/INFO] (fabric-screen-api-v1) Stopping!

@@ -44,6 +44,9 @@ public class ArcaneProtectionEnchantment extends Enchantment {
     }
 
     public boolean checkCompatibility(@NotNull Enchantment enchantment) {
-        return super.checkCompatibility(enchantment) && !(enchantment instanceof ProtectionEnchantment);
+        if (enchantment instanceof ProtectionEnchantment protectionEnchantment && protectionEnchantment.type != ProtectionEnchantment.Type.FALL) {
+            return false;
+        }
+        return super.checkCompatibility(enchantment);
     }
 }
