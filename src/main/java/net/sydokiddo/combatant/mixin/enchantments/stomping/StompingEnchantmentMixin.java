@@ -26,7 +26,7 @@ public class StompingEnchantmentMixin {
         int stompingLevel = Math.max(0, Math.max(EnchantmentHelper.getItemEnchantmentLevel(ModEnchantments.STOMPING, player.getItemBySlot(EquipmentSlot.FEET)),
         EnchantmentHelper.getItemEnchantmentLevel(ModEnchantments.STOMPING, player.getItemBySlot(EquipmentSlot.FEET))));
 
-        if (player instanceof ServerPlayer && (player.fallDistance > 1) && entity instanceof LivingEntity && (stompingLevel > 0) && (!player.isFallFlying()) && entity.isAlive()) {
+        if (player instanceof ServerPlayer && (player.fallDistance > 2) && entity instanceof LivingEntity && (stompingLevel > 0) && (!player.isFallFlying()) && entity.isAlive()) {
 
             float damage = (player.fallDistance * (stompingLevel / 2.0f)); // Damage Calculator
 
