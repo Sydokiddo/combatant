@@ -22,7 +22,7 @@ public class SlotMixin {
                 return 1;
             }
         }
-        if (stack.getItem() instanceof SnowballItem || stack.getItem() instanceof EggItem || stack.getItem() instanceof EnderpearlItem || stack.getItem() instanceof SignItem) {
+        if (stack.getItem() instanceof SnowballItem || stack.getItem() instanceof EggItem || stack.getItem() instanceof SignItem) {
             return 64;
         }
         if (stack.getItem() instanceof MinecartItem || stack.getItem() instanceof BoatItem || stack.getItem() instanceof BedItem) {

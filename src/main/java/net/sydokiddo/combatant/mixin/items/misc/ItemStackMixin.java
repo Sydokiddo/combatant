@@ -20,7 +20,7 @@ public abstract class ItemStackMixin {
         if (this.getItem() instanceof PotionItem || this.getItem() instanceof SplashPotionItem || this.getItem() instanceof LingeringPotionItem) {
             cir.setReturnValue(8);
         }
-        if (this.getItem() instanceof SnowballItem || this.getItem() instanceof EggItem || this.getItem() instanceof EnderpearlItem || this.getItem() instanceof SignItem) {
+        if (this.getItem() instanceof SnowballItem || this.getItem() instanceof EggItem || this.getItem() instanceof SignItem) {
             cir.setReturnValue(64);
         }
         if (this.getItem() instanceof MinecartItem || this.getItem() instanceof BoatItem || this.getItem() instanceof BedItem) {
