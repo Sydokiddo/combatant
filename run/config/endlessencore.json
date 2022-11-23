@@ -11,8 +11,16 @@
   },
   "mobs": {
     "modMobsConfig": {
-      "fleet": true,
-      "ethereal": true
+      "fleetConfig": {
+        "allow_spawning": true
+      },
+      "volatinConfig": {
+        "allow_spawning": true,
+        "volatin_griefing": false
+      },
+      "etherealConfig": {
+        "allow_spawning": true
+      }
     },
     "vanillaMobsConfig": {
       "endermiteConfig": {
@@ -100,8 +108,8 @@
       "updated_lightmap": true,
       "end_sky_color": true,
       "end_fog_color": true,
-      "dark_mode": false,
-      "fixed_elytra_model": true
+      "fixed_elytra_model": true,
+      "dark_mode": false
     }
   },
   "blocks": {
